@@ -13,7 +13,7 @@ Cada capítulo tem sua própria branch para anotações e exercícios
 | CAPÍTULO                                                    | BRANCH  |
 |:------------------------------------------------------------|:-------:|
 | Capítulo 1 - Consolidando os conhecimentos                  | `cap-1` |
-| Capítulo 2 - Documentando casos de uso                      | `cap-2` |
+| Capítulo 2 - Documentando casos de uso                      | [`cap-2`](https://github.com/LoriaLawrenceZ/FIAP-F5/tree/cap-2) |
 | Capítulo 3 - Iniciando o conhecimento em derivadas          | `cap-3` |
 | Capítulo 4 - A lógica com Python                            | `cap-4` |
 | Capítulo 5 - Aprendendo ainda mais de Bootstrap             | `cap-5` |
