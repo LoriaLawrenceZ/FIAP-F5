@@ -2,7 +2,7 @@
     <h1 align=center>CAPÍTULO 5</h1>
 </div>
 
->**Capítulo 5 - Documentando Casos de Uso
+>**Capítulo 5 - Documentando Casos de Uso**
 
 # INTRODUÇÃO
 
