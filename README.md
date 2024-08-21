@@ -88,4 +88,67 @@ Identifique as possibilidades de erros que podem ocorrer em cada caso de uso sen
 
 Descreva como o sistema deve responder a cada falha. Verifique se há alguma regra de negócio relacionada ao assunto – ou seja, em caso de falha, o que o sistema deve fazer? Será que deve exibir uma mensagem ao cliente? Ou então deve direcioná-lo a outro caso de uso, seguindo um fluxo alternativo? Questões como estas precisam ser documentadas para avaliação e discussão.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Template da Documentação de Caso de Uso
+
+### Título do caso de uso
+
+O nome do caso de uso deve ser o mesmo nome utilizado no Diagrama de Caso de Uso.
+
+### Identificador
+
+É um código único utilizado para identificar a descrição de um cenário do caso de uso. O identificador é importante porque deixa claro que cada caso de uso é único, e não pode ser confundido com outros casos de uso parecidos, porém diferentes.
+
+### Sumário
+
+Especifica uma breve descrição sobre a funcionalidade (caso de uso).
+
+### Ator
+
+Lista o(s) ator(es) envolvido(s) no caso de uso.
+
+### Ator primário
+
+O ator que inicia a interação com o sistema para alcançar um objetivo.
+
+### Ator secundário
+
+Representa os demais participantes do caso de uso, se houver. Muitos atores podem entrar nesta categoria, ou até mesmo nenhum.
+
+### Pré-condição
+
+Identifica outro caso de uso que deve ocorrer antes desse; hipótese que deve ser verdadeira antes da execução deste caso de uso. Pode conter nenhuma ou mais pré-condições. Por exemplo: para determinado caso de uso, é pré-condição que o cliente tenha cadastro no sistema e esteja logado.
+
+### Fluxo Principal
+
+Descreve o passo a passo da interação entre o ator e o sistema na execução do caso de uso; ou seja, o que normalmente acontece quando um caso de uso é executado.
+
+### Fluxo Alternativo
+
+Descreve o que ocorre quando o ator faz uma escolha alternativa diferente da citada no Fluxo Principal. Um Fluxo Alternativo descreve um comportamento alternativo para a execução do Fluxo Principal, que substitui parte do comportamento do Fluxo Principal. Por exemplo, no caso de um cliente que acessa um site de e-commerce especializado em cerveja: o fluxo principal é quando o cliente acessa, faz login, seleciona um produto e finaliza a compra. Um dos fluxos alternativos seria uma alteração no pedido antes do pagamento, como aumentar ou reduzir a quantidade de itens no carrinho de compras.
+
+### Fluxo de Exceção
+
+Um evento que impede que o caso de uso seja concluído, ou seja, o que pode ocorrer de excepcional durante aquele cenário. Complementa o comportamento do Fluxo Principal do caso de uso base, porém não substitui parte do comportamento do Fluxo Principal.
+
+As exceções indicam, na descrição do caso de uso, as situações que devem ser tratadas pelo sistema, tais como:
+
+- Comportamentos indesejados.
+- Algo que possa interromper o funcionamento do sistema.
+- Situação de inconsistência.
+- Violações às regras de negócio.
+- Algo inesperado.
+- Falhas.
+
+### Pós-condição
+
+Identifica um cenário ou uma situação gerada após o caso de uso ser realizado.
+
+### Regras de Negócio
+
+A especificação de um caso de uso pode fazer referência a uma ou mais Regras de Negócio.
+
+Números nos Fluxos de Exceção ou Alternativos referem-se aos números dos passos no cenário do Fluxo Principal (FP), nos quais cada situação diferente é detectada (por exemplo, os passos 2a e 3b indicam condições diferentes que podem aparecer no passo 2).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
